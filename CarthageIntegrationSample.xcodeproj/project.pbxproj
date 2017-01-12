@@ -12,7 +12,117 @@
 		993F212C1E27BAEB00BAD282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993F212A1E27BAEB00BAD282 /* Main.storyboard */; };
 		993F212E1E27BAEB00BAD282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993F212D1E27BAEB00BAD282 /* Assets.xcassets */; };
 		993F21311E27BAEB00BAD282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993F212F1E27BAEB00BAD282 /* LaunchScreen.storyboard */; };
+		993F213A1E27BD9200BAD282 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 993F21391E27BD9200BAD282 /* Cartfile */; };
+		993F21621E27C12000BAD282 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993F215F1E27C09200BAD282 /* WebImage.framework */; };
+		993F21631E27C12000BAD282 /* WebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 993F215F1E27C09200BAD282 /* WebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		993F21671E27C12300BAD282 /* RSBarcodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993F214E1E27C08D00BAD282 /* RSBarcodes.framework */; };
+		993F21681E27C12300BAD282 /* RSBarcodes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 993F214E1E27C08D00BAD282 /* RSBarcodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		993F216B1E27C12600BAD282 /* JGProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993F21481E27C08900BAD282 /* JGProgressHUD.framework */; };
+		993F216C1E27C12600BAD282 /* JGProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 993F21481E27C08900BAD282 /* JGProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		993F21431E27C08900BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F213D1E27C08900BAD282 /* JGProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BC01873197B2AA500DA4C49;
+			remoteInfo = JGProgressHUD;
+		};
+		993F21451E27C08900BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F213D1E27C08900BAD282 /* JGProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B60B24019A3B3C500ED1A4E;
+			remoteInfo = "JGProgressHUD Resources";
+		};
+		993F21471E27C08900BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F213D1E27C08900BAD282 /* JGProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BF7DC5A1AEFCFD9000A0AE0;
+			remoteInfo = "JGProgressHUD Framework";
+		};
+		993F214D1E27C08D00BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F21491E27C08D00BAD282 /* RSBarcodes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D08336371A202E81004EE128;
+			remoteInfo = RSBarcodes;
+		};
+		993F21581E27C09200BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		993F215A1E27C09200BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 537D95C117ECC1FE0097C263;
+			remoteInfo = "SDWebImage+WebP";
+		};
+		993F215C1E27C09200BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		993F215E1E27C09200BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		993F21601E27C09200BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00733A4C1BC487C000A5A117;
+			remoteInfo = "WebImage tvOS";
+		};
+		993F21641E27C12000BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2CADFE1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		993F21691E27C12300BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F21491E27C08D00BAD282 /* RSBarcodes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D08336361A202E81004EE128;
+			remoteInfo = RSBarcodes;
+		};
+		993F216D1E27C12600BAD282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993F213D1E27C08900BAD282 /* JGProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF7DC591AEFCFD9000A0AE0;
+			remoteInfo = "JGProgressHUD Framework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		993F21661E27C12000BAD282 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				993F21681E27C12300BAD282 /* RSBarcodes.framework in Embed Frameworks */,
+				993F21631E27C12000BAD282 /* WebImage.framework in Embed Frameworks */,
+				993F216C1E27C12600BAD282 /* JGProgressHUD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		993F21231E27BAEB00BAD282 /* CarthageIntegrationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageIntegrationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +132,15 @@
 		993F212D1E27BAEB00BAD282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993F21301E27BAEB00BAD282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993F21321E27BAEB00BAD282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993F21391E27BD9200BAD282 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		993F213B1E27BF5B00BAD282 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		993F213D1E27C08900BAD282 /* JGProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JGProgressHUD.xcodeproj; path = Carthage/Checkouts/JGProgressHUD/JGProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		993F21491E27C08D00BAD282 /* RSBarcodes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSBarcodes.xcodeproj; path = Carthage/Checkouts/RSBarcodes_Swift/RSBarcodes.xcodeproj; sourceTree = "<group>"; };
+		993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = Carthage/Checkouts/SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		993F21741E27C38A00BAD282 /* check_dependencies.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = check_dependencies.sh; sourceTree = "<group>"; };
+		993F21751E27C38A00BAD282 /* configure_dependencies.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = configure_dependencies.rb; sourceTree = "<group>"; };
+		993F21761E27C38A00BAD282 /* resolve_dependencies.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = resolve_dependencies.sh; sourceTree = "<group>"; };
+		993F21771E27C38A00BAD282 /* update_dependencies.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = update_dependencies.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +148,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993F21671E27C12300BAD282 /* RSBarcodes.framework in Frameworks */,
+				993F21621E27C12000BAD282 /* WebImage.framework in Frameworks */,
+				993F216B1E27C12600BAD282 /* JGProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +160,7 @@
 		993F211A1E27BAEB00BAD282 = {
 			isa = PBXGroup;
 			children = (
+				993F21381E27BAF200BAD282 /* Libraries */,
 				993F21251E27BAEB00BAD282 /* CarthageIntegrationSample */,
 				993F21241E27BAEB00BAD282 /* Products */,
 			);
@@ -64,6 +187,68 @@
 			path = CarthageIntegrationSample;
 			sourceTree = "<group>";
 		};
+		993F21381E27BAF200BAD282 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				993F21391E27BD9200BAD282 /* Cartfile */,
+				993F213B1E27BF5B00BAD282 /* Cartfile.resolved */,
+				993F21761E27C38A00BAD282 /* resolve_dependencies.sh */,
+				993F21771E27C38A00BAD282 /* update_dependencies.sh */,
+				993F21741E27C38A00BAD282 /* check_dependencies.sh */,
+				993F21751E27C38A00BAD282 /* configure_dependencies.rb */,
+				993F213C1E27C07900BAD282 /* Carthage */,
+				993F216F1E27C13200BAD282 /* Unmanaged */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		993F213C1E27C07900BAD282 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */,
+				993F21491E27C08D00BAD282 /* RSBarcodes.xcodeproj */,
+				993F213D1E27C08900BAD282 /* JGProgressHUD.xcodeproj */,
+			);
+			name = Carthage;
+			sourceTree = "<group>";
+		};
+		993F213E1E27C08900BAD282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993F21441E27C08900BAD282 /* libJGProgressHUD.a */,
+				993F21461E27C08900BAD282 /* JGProgressHUD Resources.bundle */,
+				993F21481E27C08900BAD282 /* JGProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993F214A1E27C08D00BAD282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993F214E1E27C08D00BAD282 /* RSBarcodes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993F21501E27C09200BAD282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993F21591E27C09200BAD282 /* libSDWebImage.a */,
+				993F215B1E27C09200BAD282 /* libSDWebImage+WebP.a */,
+				993F215D1E27C09200BAD282 /* libSDWebImage+MKAnnotation.a */,
+				993F215F1E27C09200BAD282 /* WebImage.framework */,
+				993F21611E27C09200BAD282 /* WebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993F216F1E27C13200BAD282 /* Unmanaged */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Unmanaged;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,13 +256,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 993F21351E27BAEB00BAD282 /* Build configuration list for PBXNativeTarget "CarthageIntegrationSample" */;
 			buildPhases = (
+				993F21781E27C3A500BAD282 /* Check Dependencies */,
 				993F211F1E27BAEB00BAD282 /* Sources */,
 				993F21201E27BAEB00BAD282 /* Frameworks */,
 				993F21211E27BAEB00BAD282 /* Resources */,
+				993F21661E27C12000BAD282 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				993F21651E27C12000BAD282 /* PBXTargetDependency */,
+				993F216A1E27C12300BAD282 /* PBXTargetDependency */,
+				993F216E1E27C12600BAD282 /* PBXTargetDependency */,
 			);
 			name = CarthageIntegrationSample;
 			productName = CarthageIntegrationSample;
@@ -111,12 +301,92 @@
 			mainGroup = 993F211A1E27BAEB00BAD282;
 			productRefGroup = 993F21241E27BAEB00BAD282 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 993F213E1E27C08900BAD282 /* Products */;
+					ProjectRef = 993F213D1E27C08900BAD282 /* JGProgressHUD.xcodeproj */;
+				},
+				{
+					ProductGroup = 993F214A1E27C08D00BAD282 /* Products */;
+					ProjectRef = 993F21491E27C08D00BAD282 /* RSBarcodes.xcodeproj */;
+				},
+				{
+					ProductGroup = 993F21501E27C09200BAD282 /* Products */;
+					ProjectRef = 993F214F1E27C09200BAD282 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				993F21221E27BAEB00BAD282 /* CarthageIntegrationSample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		993F21441E27C08900BAD282 /* libJGProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libJGProgressHUD.a;
+			remoteRef = 993F21431E27C08900BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F21461E27C08900BAD282 /* JGProgressHUD Resources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "JGProgressHUD Resources.bundle";
+			remoteRef = 993F21451E27C08900BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F21481E27C08900BAD282 /* JGProgressHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JGProgressHUD.framework;
+			remoteRef = 993F21471E27C08900BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F214E1E27C08D00BAD282 /* RSBarcodes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RSBarcodes.framework;
+			remoteRef = 993F214D1E27C08D00BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F21591E27C09200BAD282 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 993F21581E27C09200BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F215B1E27C09200BAD282 /* libSDWebImage+WebP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+WebP.a";
+			remoteRef = 993F215A1E27C09200BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F215D1E27C09200BAD282 /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = 993F215C1E27C09200BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F215F1E27C09200BAD282 /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = 993F215E1E27C09200BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		993F21611E27C09200BAD282 /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = 993F21601E27C09200BAD282 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		993F21211E27BAEB00BAD282 /* Resources */ = {
@@ -125,11 +395,29 @@
 			files = (
 				993F21311E27BAEB00BAD282 /* LaunchScreen.storyboard in Resources */,
 				993F212E1E27BAEB00BAD282 /* Assets.xcassets in Resources */,
+				993F213A1E27BD9200BAD282 /* Cartfile in Resources */,
 				993F212C1E27BAEB00BAD282 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		993F21781E27C3A500BAD282 /* Check Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Dependencies";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PROJECT_DIR}/Libraries/check_dependencies.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		993F211F1E27BAEB00BAD282 /* Sources */ = {
@@ -142,6 +430,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		993F21651E27C12000BAD282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebImage;
+			targetProxy = 993F21641E27C12000BAD282 /* PBXContainerItemProxy */;
+		};
+		993F216A1E27C12300BAD282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBarcodes;
+			targetProxy = 993F21691E27C12300BAD282 /* PBXContainerItemProxy */;
+		};
+		993F216E1E27C12600BAD282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JGProgressHUD Framework";
+			targetProxy = 993F216D1E27C12600BAD282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		993F212A1E27BAEB00BAD282 /* Main.storyboard */ = {
@@ -259,6 +565,7 @@
 		993F21361E27BAEB00BAD282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CarthageIntegrationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -271,6 +578,7 @@
 		993F21371E27BAEB00BAD282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CarthageIntegrationSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -299,6 +607,7 @@
 				993F21371E27BAEB00BAD282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
